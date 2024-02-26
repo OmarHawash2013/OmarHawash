@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Cairo", sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav{
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	background-color: #1B4242;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 13px 23px;
+}
+
+.nav a{
+	color: #fff;
+	margin-right: 30px;
+}
+
+#logo{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.nav a:hover{
+	text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #5C8374;
+}
+
+.welecome{
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1.4px;
+	font-size: 21px;
+}
+
+.work{
+	margin-top: 6px;
+	color: #f2f2f2;
+	font-weight: 200;
+	letter-spacing: 1.4px;
+	font-size: 19px;
+}
+
+.btn{
+	margin-top: 20px;
+	background-color: #dbf0f0;
+	padding: 13px;
+	border-radius: 7px;
+	width: 150px;
+}
+
+.btn a{
+	color: #333333;
+}
+
+.who{
+	direction: rtl;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+	background-color: #9EC8B9;
+}
+
+.info{
+	border: 2px solid #092635;
+	border-radius: 10px;
+	padding: 55px;
+	color: #1B4242;
+}
+
+.title{
+	text-align: center;
+	font-size: 30px;
+}
+
+.age,
+.whoWork{
+	font-size: 20px;
+	font-weight: 590;
+	color: #1B4242;
+}
+
+footer{
+	background-color: #78A083;
+	z-index: 99;
+	width: 100%;
+	background-color: #1B4242;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 17px 23px;
+}
+
+.rights{
+	color: #fff;
+	font-size: 16.7px;
+}
+
+.email{
+	color: #fff;
+	font-size: 17.6px;
+}
